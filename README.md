@@ -1,12 +1,9 @@
 # Twine Changelog 🚀
 
-forked fron [june.so](june.so)
+[forked](https://github.com/juneHQ/changelog/fork) from the awesome team at [june.so]([june.so](https://changelog.june.so/))
 
 ## Getting started
 
-The easiest way to try this is to run it locally on your computer.
-
-First, you'll need to create your own copy of this code. You can do so by clicking the ["Fork"](https://github.com/juneHQ/changelog/fork) button on GitHub and filling out the form.
 
 Once you've cloned the repository, create a `.env.local` file to setup the environment variables, you can reuse the default variables or change them as you will:
 
