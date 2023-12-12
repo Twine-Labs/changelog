@@ -22,7 +22,7 @@ export const NavbarMobileMenu = ({ toggle }: NavbarMobileMenuProps) => (
     >
       <Flex direction="column">
         <Flex align="center" justify="space-between">
-          <Flex p={4} as="a" href="https://june.so/">
+          <Flex p={4} as="a" href="https://usetwine.com/">
             <NextImage height={48} width={48} src="/june-logo-symbol-only.svg" alt="june-logo" />
           </Flex>
           <Flex p={4} onClick={toggle}>
