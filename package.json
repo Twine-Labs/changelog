@@ -23,7 +23,6 @@
     "@mdx-js/loader": "^2.2.1",
     "@mdx-js/react": "^2.2.1",
     "@next/mdx": "^13.0.7",
-    "@next/swc-darwin-arm64": "^14.0.4",
     "dayjs": "^1.10.7",
     "extracted-loader": "^1.0.7",
     "feed": "^4.2.2",
