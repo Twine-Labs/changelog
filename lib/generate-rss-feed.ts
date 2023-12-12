@@ -13,7 +13,7 @@ export const generateRssFeed = async () => {
   };
 
   const feed = new Feed({
-    title: "June Changelog",
+    title: "Twine Changelog",
     description: "How June gets better every week",
     id: siteURL,
     link: siteURL,
@@ -21,7 +21,7 @@ export const generateRssFeed = async () => {
     favicon: `${siteURL}/favicon.ico`,
     copyright: `All rights reserved ${date.getFullYear()}, June`,
     updated: date, // today's date
-    generator: "Feed for June changelog",
+    generator: "Feed for Twine changelog",
     feedLinks: {
       rss2: `${siteURL}/rss/feed.xml`, // xml format
       json: `${siteURL}/rss/feed.json`, // json fromat

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Source the .env file to get BUCKET_NAME
-source ./.env
+source ./.env.local
 
 # Check if BUCKET_NAME is set
 if [[ -z "$BUCKET_NAME" ]]; then

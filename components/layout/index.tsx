@@ -35,7 +35,7 @@ export default function Layout({ children }: ILayoutProps) {
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="June Changelog"
+          title="Twine Changelog"
           href="https://changelog.june.so/rss.xml"
         />
       </Head>

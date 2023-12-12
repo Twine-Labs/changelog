@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>June Changelog</title>
+        <title>Twine Changelog</title>
         <link>https://changelog.june.so</link>
         <description>How June gets better every week</description>
-        <lastBuildDate>Tue, 05 Dec 2023 10:06:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Dec 2023 00:53:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-        <generator>Feed for June changelog</generator>
+        <generator>Feed for Twine changelog</generator>
         <image>
-            <title>June Changelog</title>
+            <title>Twine Changelog</title>
             <url>https://changelog.june.so/favicon.ico</url>
             <link>https://changelog.june.so</link>
         </image>
