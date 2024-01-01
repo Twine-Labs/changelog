@@ -80,30 +80,7 @@ export const NavbarMobileMenu = ({ toggle }: NavbarMobileMenuProps) => (
           </Text>
         </Flex>
       </Flex>
-      <Stack spacing={4} mt={16}>
-        <Button
-          h={50}
-          size="md"
-          as="a"
-          href={`${process.env.JUNE_APP_HOST}/log-in`}
-          borderRadius={6}
-          fontWeight={MOBILE_FONT_WEIGHT}
-        >
-          Log in
-        </Button>
-        <Button
-          colorScheme="purple"
-          size="md"
-          h={50}
-          as="a"
-          href={`${process.env.JUNE_APP_HOST}/start`}
-          borderRadius={6}
-          fontWeight={MOBILE_FONT_WEIGHT}
-          className="g-conversion-button"
-        >
-          Get started
-        </Button>
-      </Stack>
+
     </Flex>
   </>
 );

@@ -1,0 +1,53 @@
+import { MdxLayout } from "components/mdx-layout.tsx";
+
+export const meta = {
+  slug: "dynamic-landings-and-december-fixes",
+  publishedAt: "2023-12-18T10:00:00.000Z",
+  title: "Dynamic Landings and December Fixes ",
+  headerImage: "",
+  authors: [
+    {
+      name: "Anand Valavalkar",
+      description: "Growth & Engineering",
+      avatarUrl: "https://june-changelog.s3.eu-central-1.amazonaws.com/dscf5588_2_6dcd0ce29c.jpg",
+    },
+    {
+      name: "Omar Imtiaz",
+      description: "Engineering",
+      avatarUrl:
+        "https://june-changelog.s3.eu-central-1.amazonaws.com/Gut_Ec_N_Ky_400x400_0c189fcaa5.jpg",
+    },
+    {
+      name: "Divyesh Khatri",
+      description: "Product & Growth",
+      avatarUrl:
+        "https://june-changelog.s3.eu-central-1.amazonaws.com/T01_AS_9_R1_RDL_U03_C1_S7_F5_A5_90609690daa6_512_5071aad8fc.jpeg",
+    },
+    {
+      name: "Donnel Zhu",
+      description: "Engineering",
+      avatarUrl: "https://june-changelog.s3.eu-central-1.amazonaws.com/IMG_3227_939da5481a.PNG",
+    },
+  ],
+};
+
+This week was the first week our new founding Engineer, Donnel, joined us. We're super excited to have him on board and he's already shipped some improvements to Twine. Overall, lots of bug fixes and improvements this week.
+
+Here's what we've been up to this week:
+
+**Dynamic Landing Pages:**
+Divyesh built dynamic landing pages for our landing page to tailor our copy and features to different audiences. We're going to be testing these out over the next few weeks to see how they perform.
+
+**This Changelog:**
+Anand set up this changelog based on the fork from [June.so](https://github.com/juneHQ/changelog)!
+
+**Other improvements:**
+
+- Omar finished our internal documentation and squashed a ton of bugs
+- Donnel made our internal Twine user management pages look and function better
+
+export default ({ children, ...rest }) => (
+  <MdxLayout meta={meta} {...rest}>
+    {children}
+  </MdxLayout>
+);

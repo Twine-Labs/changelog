@@ -2,7 +2,6 @@ import React from "react";
 import Head from "next/head";
 import { defaultPx } from "lib/utils/default-container-px";
 import TryBanner from "components/core/try-banner";
-import Navbar from "components/core/navbar";
 import { Footer } from "components/core/footer";
 import { Box, Container, Heading, HStack, Text, VStack } from "@chakra-ui/react";
 import TimeSelectionTabs from "../core/time-selection-tabs";
@@ -46,7 +45,6 @@ export default function Layout({ children }: ILayoutProps) {
             visible: { opacity: 1, transition: { duration: 0.6 } },
           }}
         >
-          <Navbar />
         </motion.div>
         {!isInBlogPage && (
           <motion.div
@@ -94,9 +92,7 @@ export default function Layout({ children }: ILayoutProps) {
               visible: { opacity: 1, transition: { duration: 1, delay: 0.4 } },
             }}
           >
-            <TryBanner _wrapper={{ my: [50, 50, 120] }} />
 
-            <Footer _wrapper={{ mt: [50, 50, 120], mb: 20 }} />
           </motion.div>
         </Box>
       </motion.div>

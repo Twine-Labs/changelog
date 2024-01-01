@@ -129,7 +129,6 @@ export const MainLayout = ({
             visible: { opacity: 1, transition: { duration: 0.6 } },
           }}
         >
-          <Navbar />
         </motion.div>
         {!isInBlogPage && (
           <motion.div
@@ -225,9 +224,7 @@ export const MainLayout = ({
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.4 }}
       >
-        <TryBanner _wrapper={{ my: [50, 50, 120] }} />
 
-        <Footer _wrapper={{ mt: [50, 50, 120], mb: 20 }} />
       </motion.div>
     </>
   );
