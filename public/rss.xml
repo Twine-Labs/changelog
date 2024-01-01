@@ -4,7 +4,7 @@
         <title>Twine Changelog</title>
         <link>https://changelog.june.so</link>
         <description>How June gets better every week</description>
-        <lastBuildDate>Mon, 18 Dec 2023 19:01:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Jan 2024 16:57:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Twine changelog</generator>
         <image>
@@ -12,7 +12,14 @@
             <url>https://changelog.june.so/favicon.ico</url>
             <link>https://changelog.june.so</link>
         </image>
-        <copyright>All rights reserved 2023, June</copyright>
+        <copyright>All rights reserved 2024, June</copyright>
+        <item>
+            <title><![CDATA[2023 Year in Review]]></title>
+            <link>https://changelog.june.so/changelogs/2023-year-in-review</link>
+            <guid>https://changelog.june.so/changelogs/2023-year-in-review</guid>
+            <pubDate>Mon, 01 Jan 2024 09:00:00 GMT</pubDate>
+            <enclosure url="https://june-changelog.s3.eu-central-1.amazonaws.com/all-new-events-page/header.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Dynamic Landings and December Fixes ]]></title>
             <link>https://changelog.june.so/changelogs/dynamic-landings-and-december-fixes</link>
